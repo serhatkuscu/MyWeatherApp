@@ -1,0 +1,64 @@
+﻿@model MyApp.Core.Models.WeatherDto
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Hava Durumu</h1>
+
+    <form method="get" class="row g-3 justify-content-center mb-4">
+        <div class="col-auto">
+            <input type="text" name="city" class="form-control" placeholder="Şehir adı gir" value="@Model?.City" />
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Göster</button>
+        </div>
+    </form>
+
+    @if (Model != null)
+    {
+        if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <!-- ❌ Hata Durumu -->
+            <div class="alert alert-danger text-center">
+                @Model.ErrorMessage
+            </div>
+        }
+        else
+        {
+            <!-- ✅ Başarılı Durum -->
+            <div class="card shadow-sm mx-auto" style="max-width: 400px;">
+                <div class="card-body text-center">
+                    <h3 class="card-title">@Model.City @if (!string.IsNullOrEmpty(Model.Country))
+                        {
+                            <span>(@Model.Country)</span>
+                        }</h3>
+
+                    @if (!string.IsNullOrEmpty(Model?.WeatherIcon))
+                    {
+                        <img src="@($"https://openweathermap.org/img/wn/{Model.WeatherIcon}@4x.png")"
+                             alt="@Model.Description"
+                             style="width:100px; height:100px;" />
+                    }
+
+                    <h4 class="card-subtitle mb-2 text-muted text-capitalize">@Model.Description</h4>
+
+                    <p class="card-text text-start">
+                        <strong>Sıcaklık:</strong> @Model.Temperature °C<br />
+                        <strong>Hissedilen:</strong> @Model.FeelsLike °C<br />
+                        <strong>Nem:</strong> @Model.Humidity %<br />
+                        <strong>Basınç:</strong> @Model.Pressure hPa<br />
+                        <strong>Rüzgar:</strong> @Model.WindSpeed m/s
+                        @if (Model.WindDeg.HasValue)
+                        {
+                            @("(" + Model.WindDeg + "° " + Model.WindDirection + ")")
+                        }<br />
+                        <strong>Gün doğumu:</strong> @Model.SunriseLocal?.ToString("HH:mm")<br />
+                        <strong>Gün batımı:</strong> @Model.SunsetLocal?.ToString("HH:mm")
+                    </p>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p class="text-center">Bir şehir adı girip hava durumunu görüntüleyebilirsiniz.</p>
+    }
+</div>

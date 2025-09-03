@@ -1,0 +1,12 @@
+C:\Users\victus\source\repos\MyApp.Core\bin\Debug\net8.0\MyApp.Core.deps.json
+C:\Users\victus\source\repos\MyApp.Core\bin\Debug\net8.0\MyApp.Core.dll
+C:\Users\victus\source\repos\MyApp.Core\bin\Debug\net8.0\MyApp.Core.pdb
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.AssemblyInfoInputs.cache
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.AssemblyInfo.cs
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.dll
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\refint\MyApp.Core.dll
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.pdb
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\ref\MyApp.Core.dll
+C:\Users\victus\source\repos\MyApp.Core\obj\Debug\net8.0\MyApp.Core.csproj.AssemblyReference.cache

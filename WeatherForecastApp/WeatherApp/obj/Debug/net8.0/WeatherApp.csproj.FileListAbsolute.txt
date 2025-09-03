@@ -1,0 +1,5 @@
+C:\Users\victus\source\repos\WheatherApp\obj\Debug\net8.0\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\victus\source\repos\WheatherApp\obj\Debug\net8.0\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victus\source\repos\WheatherApp\obj\Debug\net8.0\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\victus\source\repos\WheatherApp\obj\Debug\net8.0\WeatherApp.AssemblyInfo.cs
+C:\Users\victus\source\repos\WheatherApp\obj\Debug\net8.0\WeatherApp.csproj.CoreCompileInputs.cache

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Core", "..\MyApp.Core\MyApp.Core.csproj", "{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Core", "MyApp.Core\MyApp.Core.csproj", "{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.WebApp", "..\MyApp.WebApp\MyApp.WebApp.csproj", "{A75E0F87-0C75-4EEF-9B9A-4D83510791D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.WebApp", "MyApp.WebApp\MyApp.WebApp.csproj", "{902ED922-4A4A-4726-934A-735DC71121AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "..\WeatherApp\WeatherApp.csproj", "{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{1488536A-FCEA-4AB6-892C-DD5736A2C989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A75E0F87-0C75-4EEF-9B9A-4D83510791D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A75E0F87-0C75-4EEF-9B9A-4D83510791D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A75E0F87-0C75-4EEF-9B9A-4D83510791D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A75E0F87-0C75-4EEF-9B9A-4D83510791D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902ED922-4A4A-4726-934A-735DC71121AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902ED922-4A4A-4726-934A-735DC71121AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902ED922-4A4A-4726-934A-735DC71121AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902ED922-4A4A-4726-934A-735DC71121AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1488536A-FCEA-4AB6-892C-DD5736A2C989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1488536A-FCEA-4AB6-892C-DD5736A2C989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1488536A-FCEA-4AB6-892C-DD5736A2C989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1488536A-FCEA-4AB6-892C-DD5736A2C989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

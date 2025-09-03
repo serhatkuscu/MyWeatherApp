@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WheatherApp/1.0.0": {
+        "dependencies": {
+          "MyApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "WheatherApp.dll": {}
+        }
+      },
+      "MyApp.Core/1.0.0": {
+        "runtime": {
+          "MyApp.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WheatherApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}|..\\MyApp.Core\\MyApp.Core.csproj|c:\\users\\victus\\source\\repos\\myapp.core\\myapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}|..\\WeatherApp\\WeatherApp.csproj|c:\\users\\victus\\source\\repos\\weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,6 +25,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyApp.Core",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\MyApp.Core\\MyApp.Core.csproj",
+              "RelativeDocumentMoniker": "..\\MyApp.Core\\MyApp.Core.csproj",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\MyApp.Core\\MyApp.Core.csproj",
+              "RelativeToolTip": "..\\MyApp.Core\\MyApp.Core.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T23:05:31.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherApp\\Program.cs",
               "RelativeDocumentMoniker": "..\\WeatherApp\\Program.cs",
