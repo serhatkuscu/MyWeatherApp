@@ -1,12 +1,18 @@
-using MyApp.Core.Services;
+using MyApp.Infrastructure.Services;
+using MyApp.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// WeatherService’i DI Container’a ekle
-builder.Services.AddSingleton<IWeatherService, WeatherService>();
+// DbContext’i ekle
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// WeatherService’i Scoped olarak ekle
+builder.Services.AddScoped<IWeatherService, WeatherService>();
 
 var app = builder.Build();
 
@@ -14,14 +20,12 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    app.UseHsts(); // production için HSTS
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

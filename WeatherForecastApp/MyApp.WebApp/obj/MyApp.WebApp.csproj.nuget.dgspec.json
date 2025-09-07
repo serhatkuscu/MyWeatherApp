@@ -32,11 +32,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj": {
-                "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -86,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj": {
+    "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
-        "projectName": "MyApp.WebApp",
-        "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj",
+        "projectName": "MyApp.Data",
+        "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj",
         "packagesPath": "C:\\Users\\victus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -148,9 +144,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -159,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj": {
+    "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj",
-        "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectName": "MyApp.Infrastructure",
+        "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\victus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\obj\\",
+        "outputPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,7 +180,87 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\MyApp.Core.csproj": {
+                "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\MyApp.Core.csproj"
+              },
+              "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj": {
+                "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
+        "projectName": "MyApp.WebApp",
+        "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
+        "packagesPath": "C:\\Users\\victus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\MyApp.Core.csproj": {
+                "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\MyApp.Core.csproj"
+              },
+              "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -206,11 +279,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
@@ -229,6 +298,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

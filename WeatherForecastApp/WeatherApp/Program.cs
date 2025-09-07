@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using MyApp.Core.Services;
-using WeatherApp.Data;
+using MyApp.Data;
+using MyApp.Infrastructure.Services;
+
 
 class Program
 {
@@ -12,7 +13,7 @@ class Program
 
         // 2. DbContext ekle (SQL Server örneği)
         services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer("Server=.;Database=WeatherAppDb;Trusted_Connection=True;TrustServerCertificate=True;"));
+            options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=WeatherAppDb;Trusted_Connection=True;TrustServerCertificate=True;"));
 
         // 3. WeatherService ekle
         services.AddTransient<WeatherService>();

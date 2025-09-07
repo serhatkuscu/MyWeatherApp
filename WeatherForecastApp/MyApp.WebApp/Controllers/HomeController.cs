@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyApp.Core.Services;
-using MyApp.Core.Models;
+using MyApp.Infrastructure.Services;
 
 namespace MyApp.WebApp.Controllers
 {

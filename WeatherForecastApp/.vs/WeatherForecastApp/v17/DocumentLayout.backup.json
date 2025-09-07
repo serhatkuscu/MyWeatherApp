@@ -3,10 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00B346E4-CEF6-49BE-8D85-A5FCE16144C3}|..\\MyApp.Core\\MyApp.Core.csproj|c:\\users\\victus\\source\\repos\\myapp.core\\myapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96A81F8D-3BD2-4909-AE64-6F4D6F62FE71}|..\\WeatherApp\\WeatherApp.csproj|c:\\users\\victus\\source\\repos\\weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.data\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|solutionrelative:myapp.data\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|solutionrelative:myapp.data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.data\\migrations\\20250907125757_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|solutionrelative:myapp.data\\migrations\\20250907125757_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}|MyApp.Core\\MyApp.Core.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.core\\models\\weatherlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}|MyApp.Core\\MyApp.Core.csproj|solutionrelative:myapp.core\\models\\weatherlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1488536A-FCEA-4AB6-892C-DD5736A2C989}|WeatherApp\\WeatherApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1488536A-FCEA-4AB6-892C-DD5736A2C989}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.infrastructure\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|solutionrelative:myapp.infrastructure\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.infrastructure\\services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|solutionrelative:myapp.infrastructure\\services\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.webapp\\myapp.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{902ED922-4A4A-4726-934A-735DC71121AF}|MyApp.WebApp\\MyApp.WebApp.csproj|solutionrelative:myapp.webapp\\myapp.webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.data\\myapp.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|solutionrelative:myapp.data\\myapp.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}|MyApp.Core\\MyApp.Core.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.core\\models\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA85ACA-4A0E-4FDE-917D-7C6BB18C4EE5}|MyApp.Core\\MyApp.Core.csproj|solutionrelative:myapp.core\\models\\weatherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B830482B-3DD2-4135-80F1-C862A360D15E}|MyApp.Data\\MyApp.Data.csproj|solutionrelative:myapp.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1488536A-FCEA-4AB6-892C-DD5736A2C989}|WeatherApp\\WeatherApp.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\weatherapp\\weatherapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1488536A-FCEA-4AB6-892C-DD5736A2C989}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\weatherapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.infrastructure\\myapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|solutionrelative:myapp.infrastructure\\myapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|c:\\users\\victus\\source\\repos\\weatherforecastapp\\myapp.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43082923-64D1-4CB8-A143-629D3CAB9417}|MyApp.Infrastructure\\MyApp.Infrastructure.csproj|solutionrelative:myapp.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -24,28 +94,249 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MyApp.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "MyApp.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T13:06:27.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250907125757_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Migrations\\20250907125757_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MyApp.Data\\Migrations\\20250907125757_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Migrations\\20250907125757_InitialCreate.cs",
+              "RelativeToolTip": "MyApp.Data\\Migrations\\20250907125757_InitialCreate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:57:57.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\appsettings.Development.json",
+              "RelativeToolTip": "MyApp.WebApp\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T12:45:30.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyApp.Core",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\MyApp.Core\\MyApp.Core.csproj",
-              "RelativeDocumentMoniker": "..\\MyApp.Core\\MyApp.Core.csproj",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\MyApp.Core\\MyApp.Core.csproj",
-              "RelativeToolTip": "..\\MyApp.Core\\MyApp.Core.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\appsettings.json",
+              "RelativeToolTip": "MyApp.WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T12:45:25.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MyApp.WebApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:25:40.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyApp.WebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:25:31.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyApp.WebApp",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\MyApp.WebApp.csproj",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\MyApp.WebApp.csproj",
+              "RelativeToolTip": "MyApp.WebApp\\MyApp.WebApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-03T23:05:31.251Z",
+              "WhenOpened": "2025-09-07T12:24:58.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyApp.WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.WebApp\\Program.cs",
+              "RelativeToolTip": "MyApp.WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:23:18.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyApp.Data",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj",
+              "RelativeDocumentMoniker": "MyApp.Data\\MyApp.Data.csproj",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\MyApp.Data.csproj",
+              "RelativeToolTip": "MyApp.Data\\MyApp.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-07T12:09:48.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherApp\\Program.cs",
-              "RelativeDocumentMoniker": "..\\WeatherApp\\Program.cs",
-              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherApp\\Program.cs",
-              "RelativeToolTip": "..\\WeatherApp\\Program.cs",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyApp.Data\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MyApp.Data\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:09:28.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "MyApp.Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Data\\Class1.cs",
+              "RelativeToolTip": "MyApp.Data\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T22:56:51.06Z",
+              "WhenOpened": "2025-09-07T12:08:49.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherApp",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj",
+              "RelativeDocumentMoniker": "WeatherApp\\WeatherApp.csproj",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\WeatherApp.csproj",
+              "RelativeToolTip": "WeatherApp\\WeatherApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-07T11:50:15.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherLog.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\Models\\WeatherLog.cs",
+              "RelativeDocumentMoniker": "MyApp.Core\\Models\\WeatherLog.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\Models\\WeatherLog.cs",
+              "RelativeToolTip": "MyApp.Core\\Models\\WeatherLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:58:14.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherDto.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\Models\\WeatherDto.cs",
+              "RelativeDocumentMoniker": "MyApp.Core\\Models\\WeatherDto.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Core\\Models\\WeatherDto.cs",
+              "RelativeToolTip": "MyApp.Core\\Models\\WeatherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:58:12.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Services\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "MyApp.Infrastructure\\Services\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Services\\IWeatherService.cs",
+              "RelativeToolTip": "MyApp.Infrastructure\\Services\\IWeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:49:03.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyApp.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "RelativeToolTip": "MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-07T11:48:27.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "MyApp.Infrastructure\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Services\\WeatherService.cs",
+              "RelativeToolTip": "MyApp.Infrastructure\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwBQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:42:42.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "MyApp.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\MyApp.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "MyApp.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T11:42:01.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\Program.cs",
+              "ToolTip": "C:\\Users\\victus\\source\\repos\\WeatherForecastApp\\WeatherApp\\Program.cs",
+              "RelativeToolTip": "WeatherApp\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T19:34:48.212Z",
               "EditorCaption": ""
             }
           ]
