@@ -1,7 +1,6 @@
-﻿using System.Net.Http;
-using System.Text.Json;
-using MyApp.Core.Models;
+﻿using MyApp.Core.Models;
 using MyApp.Data; // DbContext burada
+using System.Text.Json;
 
 namespace MyApp.Infrastructure.Services   // 🔄 namespace değişti!
 {
@@ -12,11 +11,16 @@ namespace MyApp.Infrastructure.Services   // 🔄 namespace değişti!
         private readonly AppDbContext _db; // EF Core DbContext
 
         // DI ile AppDbContext gelecek
-        public WeatherService(AppDbContext db)
+        private readonly AppDbContext _sqlDb;        // MS SQL
+        private readonly WeatherDbContext _pgDb;     // PostgreSQL
+
+        public WeatherService(AppDbContext sqlDb, WeatherDbContext pgDb)
         {
             _httpClient = new HttpClient();
-            _db = db;
+            _sqlDb = sqlDb;
+            _pgDb = pgDb;
         }
+
 
         public async Task<WeatherDto?> GetWeatherAsync(string city = "Istanbul")
         {
@@ -108,11 +112,18 @@ namespace MyApp.Infrastructure.Services   // 🔄 namespace değişti!
             {
                 City = dto.City,
                 Temperature = dto.Temperature,
-                CreatedAt = DateTime.Now
+                CreatedAt = DateTime.UtcNow   // ✅ Local yerine UTC
             };
 
-            _db.WeatherLogs.Add(log);
-            await _db.SaveChangesAsync();
+
+            // MS SQL
+            _sqlDb.WeatherLogs.Add(log);
+            await _sqlDb.SaveChangesAsync();
+
+            // PostgreSQL
+            _pgDb.WeatherLogs.Add(log);
+            await _pgDb.SaveChangesAsync();
+
 
             return dto;
         }

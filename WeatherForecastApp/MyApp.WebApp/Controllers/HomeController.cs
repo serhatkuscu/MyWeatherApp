@@ -24,6 +24,11 @@ namespace MyApp.WebApp.Controllers
 
             return View(weatherData);
         }
+        // 🔹 Döviz çevirici sayfası (Exchange)
+        public IActionResult Exchange()
+        {
+            return View();
+        }
 
     }
 }
